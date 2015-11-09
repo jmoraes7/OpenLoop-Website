@@ -1,0 +1,7 @@
+Zachary Liu built the website using jekyll.
+
+Deployed it following this tutorial http://danielwhyte.com/app/design/2014/10/05/creating-a-jekyll-s3-server.html
+
+to publish a new build of the website, do:
+
+sh deploy.sh
