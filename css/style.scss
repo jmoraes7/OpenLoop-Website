@@ -143,7 +143,13 @@ h1, h2, h3 {
     background-size: cover;
     transform: scale(0.8);
     transition: transform 0.2s;
-
+    a {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
     &:hover {
       transform: scale(0.9);
     }
