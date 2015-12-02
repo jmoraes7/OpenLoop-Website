@@ -1,0 +1,130 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1E1C1E;
+  color: #ccc;
+  padding-top: 50px; }
+
+a {
+  transition: color 0.2s; }
+  a:active {
+    transition: none; }
+
+.jumbotron {
+  text-align: center;
+  height: 400px;
+  background-size: cover;
+  border-radius: 0 !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .jumbotron h2 {
+    font-weight: 300 !important; }
+
+hr {
+  border-top-color: #555; }
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white; }
+
+.btn {
+  border-radius: 0 !important;
+  text-transform: uppercase; }
+
+.primary-header {
+  font-size: 50px;
+  font-weight: 300 !important; }
+  .primary-header-emphasis {
+    font-weight: 600 !important; }
+
+.page-title {
+  font-size: 50px;
+  font-weight: 300 !important;
+  margin-bottom: 30px; }
+
+.ol-navbar {
+  background-color: #1E1C1E; }
+
+.align-with-header {
+  height: 30px; }
+
+.btn-default {
+  background-color: #383538;
+  color: white;
+  border: none;
+  transition: background-color 0.2s; }
+  .btn-default:active {
+    transition: none; }
+  .btn-default:focus, .btn-default:hover {
+    background-color: #534d53;
+    color: white; }
+
+.ol-news {
+  display: flex;
+  margin-bottom: 30px; }
+  .ol-news-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    flex-shrink: 0;
+    margin: 5px; }
+  .ol-news-title {
+    font-weight: 700; }
+  .ol-news-text {
+    margin-left: 20px; }
+
+.ol-infographic {
+  height: 600px;
+  margin: 50px 0;
+  background-size: cover; }
+  .ol-infographic-text {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    max-width: 200px;
+    margin: 10px; }
+
+.ol-subpage-button {
+  font-size: 15px;
+  text-align: left; }
+
+.ol-team {
+  display: flex;
+  flex-wrap: wrap; }
+  .ol-team-member {
+    display: block;
+    width: 12.5%;
+    padding-bottom: 12.5%;
+    float: left;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    transform: scale(0.8);
+    transition: transform 0.2s; }
+    .ol-team-member a {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .ol-team-member:hover {
+      transform: scale(0.9); }
+
+.ol-sponsor {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 33%; }
+  .ol-sponsor img {
+    display: block;
+    width: 100%;
+    border: 0; }
+
+.ol-press {
+  margin-bottom: 50px; }
+  .ol-press-date {
+    font-size: 16px; }
+  .ol-press-title {
+    margin-top: 10px;
+    margin-bottom: 18px; }
